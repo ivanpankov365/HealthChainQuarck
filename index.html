@@ -14,6 +14,7 @@
         QuarkChain.injectWeb3(web3, testnetEndpoint);
         const PRIVATEKEY = '0x7FE624CEAB8618D906C897ADBD68758D75A88F88B298E59D08C518DA8A0ADC77';
         web3.qkc.setPrivateKey(PRIVATEKEY);
+        contractFace = web3.qkc.contract(abi);
         /*if (typeof web3 !== 'undefined') {
             web3 = new Web3(web3.currentProvider);
         } else {

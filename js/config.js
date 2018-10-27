@@ -1,4 +1,4 @@
-
+let contractFace;
 let selectedDrag;
 let selectedRecipe;
 let existDrags = ['{ Alendronate }','{ Venlafaxine }', '{ L-Carnitine }'];
@@ -95,6 +95,6 @@ let abi = [
     }
 ]
 
-let contractFace = web3.qkc.contract(abi);
+
 
 
